@@ -1,5 +1,5 @@
 import { createWebHistory, createRouter } from 'vue-router'
-import type { ExtendedRouteRecordRaw } from '@/types/router.d.ts'
+import type { ExtendedRouteRecordRaw } from '@/@types/router.d.ts'
 // 定义模块路由的接口
 interface ModuleWithRoutes {
     default: ExtendedRouteRecordRaw[]

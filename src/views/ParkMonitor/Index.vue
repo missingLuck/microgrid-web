@@ -1,6 +1,6 @@
 <template>
     <div class="name">园区111监控</div>
-    <div class="value w-48 line-clamp-1">{{ a + b }}</div>
+    <div class="value w-48 line-clamp-1 testName">{{ a + b }}</div>
     <el-button>园区监控</el-button>
 </template>
 
@@ -27,5 +27,9 @@ export default {
 <style lang="less">
 .name {
     @apply bg-success;
+    padding-inline: 12px;
+}
+.testName{
+    margin-top: 4px;
 }
 </style>

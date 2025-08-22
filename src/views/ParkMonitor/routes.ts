@@ -1,4 +1,4 @@
-import type { ExtendedRouteRecordRaw } from '@/types/router'
+import type { ExtendedRouteRecordRaw } from '@/@types/router'
 export default [
     { path: '/', component: () => import('./Index.vue'), alias: '/dashboard' },
     {
